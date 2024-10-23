@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daerah Istimewa Yogyakarta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <header> <!-- Ini adalah Header Content (Background) -->
+        <div class="header-content">
+            <img src="file:///D:/KULIAH/SEM%203/0PRAK%20ALPROG/acara%204/logo.png" alt="Logo DIY" class="logo">
+            <h1>Daerah Istimewa Yogyakarta</h1>
+        </div>
+    </header>
+
+    <nav class="tab-menu"> <!-- Ini adalah menu-menu tab -->
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#publikasi">Publikasi</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#cari">Cari</a></li>
+        </ul>
+    </nav>
+
+    <div class="content"> <!-- Ini adalah pengaturan menu tab -->
+        <section id="beranda">
+            <h2>Beranda</h2>
+            <p>Ini adalah halaman beranda.</p>
+        </section>
+        <section id="profil">
+            <h2>Profil</h2>
+            <p>Ini adalah halaman profil.</p>
+        </section>
+        <section id="publikasi">
+            <h2>Publikasi</h2>
+            <p>Ini adalah halaman publikasi.</p>
+        </section>
+        <section id="layanan">
+            <h2>Layanan</h2>
+            <p>Ini adalah halaman layanan.</p>
+        </section>
+        <section id="cari">
+            <h2>Cari</h2>
+            <p>Ini adalah halaman pencarian.</p>
+        </section>
+    </div>
+
+    <section class="gallery"> <!-- Ini adalah foto-foto galeri -->
+        <img src="https://yogya.co/wp-content/uploads/tugu-jogja.webp">
+        <img src="https://img.antaranews.com/cache/1200x800/2021/08/03/IMG_20210609_235450.jpg.webp" alt="Foto Yogyakarta 2">
+        <img src="https://nagantour.com/wp-content/uploads/2023/06/Pantai-Terindah-Di-Yogyakarta.jpg" alt="Foto Yogyakarta 3">
+    </section>
+
+    <section class="content"> <!-- Ini adalah konten tabel kepadatan penduduk -->
+        <h2>Kepadatan Penduduk DIY</h2>
+        <table>
+            <tr>
+                <th>Kabupaten/Kota</th>
+                <th>Luas Wilayah (km²)</th>
+                <th>Jumlah Penduduk</th>
+                <th>Kepadatan Penduduk (per km²)</th>
+            </tr>
+            <tr>
+                <td>Kota Yogyakarta</td>
+                <td>32.5</td>
+                <td>373,589</td>
+                <td>11,496</td>
+            </tr>
+            <tr>
+                <td>Sleman</td>
+                <td>574.82</td>
+                <td>1,148,610</td>
+                <td>1,998</td>
+            </tr>
+            <tr>
+                <td>Bantul</td>
+                <td>506.85</td>
+                <td>944,717</td>
+                <td>1,864</td>
+            </tr>
+            <tr>
+                <td>Gunungkidul</td>
+                <td>1,485.36</td>
+                <td>706,775</td>
+                <td>476</td>
+            </tr>
+            <tr>
+                <td>Kulon Progo</td>
+                <td>586.27</td>
+                <td>436,395</td>
+                <td>744</td>
+            </tr>
+        </table>
+    </section>
+
+    <div class="button-container"> <!-- Ini adalah tombol menuju laman BPS -->
+        <a href="https://www.bps.go.id" class="button" target="_blank">Data Selengkapnya</a>
+    </div>
+
+    <footer> <!-- Ini adalah footer -->
+        <p>&copy; 2024 Pemerintah Daerah Istimewa Yogyakarta. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+            <li><a href="#privasi">Kebijakan Privasi</a></li>
+        </ul>
+    </footer>
+   
+</body>
+</html>
+
+<style> 
+
+
+    body { /* Ini adalah font dan background web */
+        font-family: 'Borel', cursive;
+        background:linear-gradient(to right,#fff5fa, #fff0f8,#ffe0ed) ;
+}
+
+    header { /* Ini adalah pengaturan header web */
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kraton_Yogyakarta_Pagelaran.jpg/1200px-Kraton_Yogyakarta_Pagelaran.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 280px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-shadow: 2px 2px 0px #000;
+}
+
+    .header-content {
+     background-color: rgba(226, 207, 213, 0.5);
+        padding: 20px;
+        border-radius: 4px;
+}
+    .logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+    h1 {
+     display: box;
+     font-size: 3rem;
+     text-shadow: 2px 2px 0px #000;
+}
+
+.tab-menu { /* Ini adalah warna menu tab */
+    background-color: #65122f; 
+}
+
+.tab-menu ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+}
+
+.tab-menu ul li {
+    display: inline; 
+}
+
+.tab-menu ul li a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.tab-menu ul li a:hover {
+    background-color: #7b2b47;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content section {
+    display: none;
+}
+
+.content section:target {
+    display: block;
+}
+
+.gallery {
+     display: flex;
+     justify-content: center;
+     margin: 20px 0;
+     outline-width: 0.3cm;
+    outline-color: #65122f;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 0 10px;
+    border-radius: 10px;
+    outline-width: 0.3cm;
+    outline-color: #65122f;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    outline-width: 0.3cm;
+    outline-color: #65122f;
+}
+    
+    table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+    table, th, td {
+    border: 1px solid #d4c2cc;
+    padding: 4px;
+    box-shadow: #d4c2cc;
+}
+
+    th {
+        background-color: #65122f;
+        color: white;
+}
+
+    td {
+        text-align: center;
+        background-color: azure;
+}
+
+    .h2 {
+        margin-bottom: 2px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 0px #000;
+}
+
+
+    .button-container {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 40px;
+}
+    .button {
+        background-color: #65122f; 
+        color: white; 
+        padding: 5px 3px; 
+        text-align: center;
+        text-decoration: wavy; 
+        font-size: 16px;
+        border-radius: 2px; 
+        transition: background-color 0.3s ease; 
+}
+    .button:hover {
+    background-color: #7b2b47;
+}
+footer {
+    background-color:#65122f; 
+    color: white; 
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline; 
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline; 
+}
+    </style>
+</body>
+</html>
